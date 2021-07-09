@@ -45,3 +45,11 @@ body, html {
     min-height: 400px;
   }
 }
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 750px) {
+  .w3-card-4{
+      margin-top: 5%;
+  }
+}
