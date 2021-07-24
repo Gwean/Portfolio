@@ -44,25 +44,52 @@ justify-content:  center;
     background-color: #F3F3F3;
     border-radius: 16px 16px 0px 0px;
     position: relative;
-    
+    justify-content: center;
 
 }
 
 .ImagenCard {
     border-radius: 16px 16px 0px 0px;
     height: 193px;
-    
-
 }
 
 .ImagePerfil {
     border-radius: 50%;
     position: absolute;
-    z-index: 1;
     left: 90px;
     top: 128px;
 }
 
 #Harley{
     margin: 0px 30px;
+}
+
+.Heart{
+    position: absolute;
+    left: 21px;
+    top: 16px;
+}
+
+.Nombre{
+    text-align: center;
+    margin: 0%;
+    margin-top: 73px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Parrafo{
+    margin: 10px 17px 37px 16px;
+}
+.contBoton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Boton{
+    padding: 15px 37px;
+    background-color: #00669F;
+    border: none;
+    font-size: 15px;
+    color: white;
 }
