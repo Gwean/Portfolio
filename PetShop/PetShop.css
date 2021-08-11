@@ -1,10 +1,13 @@
-html, body, header{
+html,
+body,
+header {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
     width: 100%;
 }
-#BarraSup{
+
+#BarraSup {
     background-color: black;
     color: white;
     display: flex;
@@ -14,74 +17,179 @@ html, body, header{
     justify-content: space-between;
     padding: 0.5%;
 }
-p{
+
+p {
     padding: 0%;
     margin: 0%;
 }
-nav{
-background: #F0A83E;
-display: flex; 
-width: 95%;
-justify-content: space-between;
-padding: 19px 2.5%;
+
+nav {
+    background: #F0A83E;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding: 19px 2.5%;
 }
 
-.izquierda{
- display: flex;
- width: auto;
+.izquierda {
+    display: flex;
+    width: auto;
 }
 
-#Logo{
-height: 23px;
-width: auto;
+#Logo {
+    height: 23px;
+    width: auto;
 }
 
-.links{
-font-size: 13px;
-text-decoration: none;
-color: white;
-font-style: normal;
-font-weight: 400;
-text-align: left;
-margin-left: 20px;
+.links {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
 
 }
+
 .dropbtn {
-  background-color: black;
-  color: white;
-  font-size: 10px;
-  border: none;
-  cursor: pointer;
-  min-width: 60px ;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    min-width: 60px;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-    min-width: 60px ;
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    min-width: 60px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+    background-color: #3e8e41;
+}
+
+#Titulo {
+    padding-top: 1%;
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    top: 237px;
+    right: 12px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+}
+
+#Comederos {
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    right: 95px;
+    top: 333px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3C2313;
+}
+
+.BotonComederos {
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    right: 117px;
+    top: 357px;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.Patita {
+    position: absolute;
+    width: 67px;
+    height: 71px;
+    left: calc(50% - 67px/2 + 0.5px);
+    top: 510px;
+
+}
+
+.PatitaTitulo {
+    position: absolute;
+    width: 406px;
+    height: 47px;
+
+    top: 586px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0%;
+    color: #3C2313;
+
+}
+
+.Subtitulo {
+    position: absolute;
+    top: 653px;
+    position: absolute;
+
+    text-align: center;
+    color: #666666;
+}
+article{
+height: 312px;
+width: 30%;
+background: #FBFAF6;
+}
+
+#Contenedor{
+    position: absolute;
+    width: 834px;
+    top: 720px;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#Contenedor img{
+    width: 100%;
+}
+
+#Productos{
+    display: flex;
+    justify-content: center;
 }
