@@ -1,0 +1,87 @@
+html, body, header{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#BarraSup{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 20px;
+    font-size: 10px;
+    width: 99%;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+background: #F0A83E;
+display: flex; 
+width: 95%;
+justify-content: space-between;
+padding: 19px 2.5%;
+}
+
+.izquierda{
+ display: flex;
+ width: auto;
+}
+
+#Logo{
+height: 23px;
+width: auto;
+}
+
+.links{
+font-size: 13px;
+text-decoration: none;
+color: white;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+margin-left: 20px;
+
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 60px ;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    min-width: 60px ;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

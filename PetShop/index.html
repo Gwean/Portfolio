@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PetShop.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Pet Shop</title>
 </head>
+
 <body>
     <header>
-        <div>
+        <div id="BarraSup">
             <p>Grandes ofertas en comederos</p>
-            <p>Español V </p>
-            <p>ARG$ V </p>
+            <div class="izquierda">
+                <div class="dropdown">
+                    <button class="dropbtn">Español <img src="./Vector 1.png" style="width: 10px;" alt=""></button>
+                    <div class="dropdown-content">
+                        <a href="#">Inglés</a>
+                        <a href="#">Italliano</a>
+                        <a href="#">Portugués</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">ARG $</button>
+                    <div class="dropdown-content">
+                        <a href="#">DOL $</a>
+                        <a href="#">EUR €</a>
+                        <a href="#">YEN ¥</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <nav>
-           <img src="./Logo.png" alt="Logo">
-           <div>
-               <a href="">Categorías</a>
-               <a href="">Pets</a>
-               <a href="">Nosotros</a>
-               <a href="">Contactanos</a>
-           </div> 
+            <img src="./Logo.png" id="Logo" alt="Logo">
+            <div class="izquierda">
+                <a class="links" href=""> <img src="./Paw.png"> Categorías</a>
+                <a class="links" href=""> <img src="./Paw.png"> Pets</a>
+                <a class="links" href=""> <img src="./Paw.png"> Nosotros</a>
+                <a class="links" href=""> <img src="./Paw.png"> Contactanos</a>
+            </div>
         </nav>
     </header>
     <main>
         <section id="Banner">
-            <img src="./Banner.png" alt="Imagen de Fondo">
+            <img src="./Banner.png"  style="width:100%" alt="Imagen de Fondo">
             <h1>Es un placer tenerte aquí!</h1>
             <p>Comederos en descuento!</p>
             <h3>COMEDEROS</h3>
@@ -33,7 +55,7 @@
         <section id="Productos">
             <img src="." alt="Patita">
             <h1>Productos Destacados</h1>
-            <p>Comederos   -   Accesorios   -   Comida</p>
+            <p>Comederos - Accesorios - Comida</p>
             <article>
                 <img src="./Churrasquito.png" alt="Juguete Churrasquito">
                 <h4>Juguete Churrasquito</h4>
@@ -55,4 +77,5 @@
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>
+
 </html>
