@@ -171,9 +171,11 @@ nav {
     color: #666666;
 }
 article{
-height: 312px;
 width: 30%;
 background: #FBFAF6;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 #Contenedor{
@@ -192,4 +194,14 @@ background: #FBFAF6;
 #Productos{
     display: flex;
     justify-content: center;
+}
+
+.TituloCard{
+text-align: center;
+}
+
+.Precio{
+    color: #F0A83E;
+    text-align: center;
+
 }
