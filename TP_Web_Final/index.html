@@ -18,14 +18,15 @@
         <link rel="stylesheet" href="./Styles/Banner.css">
 </head>
 
+
 <body>
     <div class="w3-bar  Nav">
         <div class="LogoContainer">
-            <img src="./assets/Red_Logo-02-02.png" class="LogoNav" alt="">
+            <a href="#"><img src="./assets/Red_Logo-02-02.png" class="LogoNav" alt="Logo"></a>
         </div>
         <div class=" w3-col l5"></div>
-        <div class="LinkContainer "><a href="#" class="links">NOSOTROS</a></div>
-        <div class="LinkContainer "><a href="#" class="links">LA RED</a></div>
+        <div class="LinkContainer "><a href="./Pages/SobreNosotros.html" class="links">NOSOTROS</a></div>
+        <div class="LinkContainer "><a href="../Pages/LaRed.html" class="links">LA RED</a></div>
         <div class="LinkContainer "><a href="#" class="links">NOTICIAS</a></div>
         <div class="LinkContainer "><a href="#" class="links">CONTACTANOS</a></div>
     </div>
@@ -33,7 +34,8 @@
     <section class="hero-image"></section>
         <div class="hero-text">
             <h1 class="banner-title">SOMOS LA RED</h1>
-            <button class="w3-button w3-round-large w3-xlarge">CONOCENOS!</button>
+            
+            <button id="BotonConocenos" class="w3-button w3-round-large w3-xlarge" onclick="window.location.href='Pages/SobreNosotros.html'">CONOCENOS!</button>
         </div>
     </section>
 

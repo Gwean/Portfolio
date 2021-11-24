@@ -1,0 +1,41 @@
+html, body {
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#LaRed{
+    padding-top: 2%;
+    width: 100%;
+}
+.Row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.Card{
+    margin: 1% 1%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(52, 68, 68, 0.555);
+    height: 300px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardImg{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h5,h6{
+    font-size: 16px;
+}
+h5{
+    font-weight: 500;
+}
+h6{
+    color: #747474;
+}
