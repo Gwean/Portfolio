@@ -18,24 +18,38 @@
     <link rel="stylesheet" href="../Styles/SomosNosotros.css">
     <link rel="stylesheet" href="../Styles/Noticias.css">
     <link rel="stylesheet" href="../Styles/Contacto.css">
+    <script src="../../Landing/landing.js"></script>
 </head>
 
 
 <body>
     <div class="w3-bar  Nav">
         <div class="LogoContainer">
-            <a href="../index.html"><img src="../assets/Red_Logo-02-02.png" class="LogoNav" alt="Logo"></a>
+            <a href="#"><img src="../assets/Red_Logo-02-02.png" class="LogoNav" alt="Logo"></a>
         </div>
         <div class=" w3-col l5"></div>
-        <div class="LinkContainer "><a href="../Pages/SobreNosotros.html" class="links">NOSOTROS</a></div>
-        <div class="LinkContainer "><a href="../Pages/LaRed.html" class="links">LA RED</a></div>
-        <div class="LinkContainer "><a href="../Pages/Noticias.html" class="links">NOTICIAS</a></div>
-        <div class="LinkContainer "><a href="../Pages/Contacto.html" class="links">CONTACTANOS</a></div>
+        <div class="LinkContainer w3-hide-small "><a href="../Pages/SobreNosotros.html" class="links ">NOSOTROS</a></div>
+        <div class="LinkContainer w3-hide-small "><a href="../Pages/LaRed.html" class="links ">LA RED</a></div>
+        <div class="LinkContainer w3-hide-small"><a href="..Pages/Noticias.html" class="links ">NOTICIAS</a></div>
+        <div class="LinkContainer w3-hide-small"><a href="../Pages/Contacto.html" class="links ">CONTACTANOS</a></div>
+        <a style="color: white;" class="w3-bar-item w3-buttonw3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a  href="../Pages/SobreNosotros.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NOSOTROS</a>
+            <a href="../Pages/LaRed.html" class="w3-bar-item w3-button" onclick="toggleFunction()">LA RED</a>
+            <a href="../Pages/Noticias.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NOTICIAS</a>
+            <a href="../Pages/Contacto.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTANOS</a>
+          </div>
+        </div>
 
     <section id="Contacto">
         <div class="">
-            <span class="SeccionTituloCont SeccionTitulo">La Red</span>
+            <span class="SeccionTituloCont SeccionTitulo">Contactanos</span>
         </div>
         <article id="FormularioContainer">
             <h2>Querés formar parte de la red?</h2>
