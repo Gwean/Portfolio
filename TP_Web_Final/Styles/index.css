@@ -89,4 +89,19 @@ white-space: nowrap;
         justify-content: space-between;
         align-items: center;
     }
+
+    #Footer{
+padding: 3%;
+    }
+    #Footer hr{
+       
+        width: 50%;
+    }
+    
+    .redesContainer{
+
+        width: 50%;
+    }
+
+
 }
