@@ -1,0 +1,52 @@
+#Contacto{
+    background-color: #F2F2F2;
+}
+#FormularioContainer{
+    background-image: url("../assets/Contacto.png");
+    height: 75%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article h2{
+    color: #585858;
+    font-weight: 600;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+input, textarea{
+    margin-top: 1.5%;
+    border: none;
+    border-bottom: 4px solid #BD99FF;
+}
+input{
+width: 45%;
+height: 50px;}
+
+textarea{
+    width: 100%;
+    height: 200px;
+
+}
+form div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input[type="submit"]{
+    width: 30%; 
+}

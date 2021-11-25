@@ -1,5 +1,6 @@
 html,body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
 }
 .Nav{
     display: flex;
