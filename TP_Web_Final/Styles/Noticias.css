@@ -7,10 +7,32 @@
     margin: 1% 1%;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(52, 68, 68, 0.555);
+    box-shadow: 4px 4px 2px rgba(52, 68, 68, 0.555);
     height: 300px;
+    width: 80%;
+    display: flex;
+
+}
+.CardImg2{
     width: 20%;
+    object-fit: contain;
+    border-radius: 3px;
+}
+.IzqCard{
+    width: 70%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.Boton{
+    border: none;
+    outline: 0;
+    padding: 1% 1.5%;
+    color: black;
+    background-color: #EDE88C;
+    box-shadow: 2px 2px 2px rgba(52, 68, 68, 0.555);
+    text-align: center;
+    cursor: pointer;
 }
