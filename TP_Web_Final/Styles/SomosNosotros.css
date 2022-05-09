@@ -1,0 +1,37 @@
+html, body {
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#SobreNosotros{
+    padding-top: 2%;
+    width: 100%;
+}
+.SeccionTituloCont{
+    padding-left: 3%;
+    font-size: 25px;
+    width: auto;
+    border-bottom: 6px solid #BD99FF;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+.TextoIzq, .TextoDer{
+    width: 70%;
+}
+
+.SeccionImg{
+    width: 20%;
+}
+
+
+
+@media (max-width: 600px) {
+.SeccionImg, .TextoIzq, .TextoDer{
+    width: 90%;
+}
+}
