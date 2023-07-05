@@ -45,6 +45,7 @@ body, html {
 .w3-card-4{
   margin: 1%;
   transition: all .2s ease-in-out;
+  height: 250px;
 }
 .w3-card-4:hover{
   transform: scale(1.1);
@@ -78,5 +79,9 @@ em{
 @media only screen and (max-device-width: 750px) {
   .w3-card-4{
       margin-top: 5%;
+      height: 320px;
+  }
+  .w3-container{
+    margin-top: 5%;
   }
 }
